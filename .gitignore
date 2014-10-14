@@ -1,3 +1,13 @@
-*
-!.emacs.d/
-!.emacs
+.recentf
+BUGS
+COPYING
+*.saves*~
+README
+README.W32
+bin/
+etc/
+info/
+leim/
+lisp/
+site-lisp/
+.emacs.d/ac-comphist.dat
