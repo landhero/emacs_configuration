@@ -1,6 +1,10 @@
+;; Set clipboard
 (setq x-select-enable-clipboard t)
+
+;; Add
 (load "~/.emacs.d/tuareg/tuareg-site-file")
 
+;; markdown mode
 (load "~/.emacs.d/markdown-mode")
 (autoload 'markdown-mode "markdown-mode"
    "Major mode for editing Markdown files" t)
@@ -55,7 +59,13 @@
     (setq python-indent 4)
     (setq tab-width 4))
     (tabify (point-min) (point-max)))
-;;utf-8±àÂë
+
+;; Set UTF-8
 (prefer-coding-system 'utf-8)
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
+
+;; tab instead of spaces
+(setq-default c-basic-offset 4
+                  tab-width 4
+                  indent-tabs-mode t)
