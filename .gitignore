@@ -9,5 +9,4 @@ etc/
 info/
 leim/
 lisp/
-site-lisp/
 .emacs.d/ac-comphist.dat
